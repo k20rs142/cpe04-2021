@@ -150,7 +150,7 @@
 
 
     // 変数宣言
-
+    
 
     
     // ボタンの初期設定
@@ -170,13 +170,16 @@
       img.onload = function() {
         ctx.drawImage(img, 0, 0, 300, 300);
       };
+
+      var audio = new Audio();
+      audio.src = "pin.wav";
+      audio.play();
    
     }
     
     // ButtonAがクリックされた時の処理
     function btnAClick(e){
-        
-        
+       
     }
 
     // ButtonBがクリックされた時の処理
