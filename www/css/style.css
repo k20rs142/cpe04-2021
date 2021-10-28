@@ -78,12 +78,19 @@
     
     #minute {
         font-size: 30px;
-        position:absolute; top:460px; left:50px; width:80px; height:40px;   
+        position:absolute; top:460px; left:75px; width:80px; height:40px;   
     }
     
     #second {
         font-size: 30px;
-        position:absolute; top:460px; left:180px; width:80px; height:40px;   
+        position:absolute; top:460px; left:225px; width:80px; height:40px;   
+    }
+
+    #colon {
+      color: black;
+      font-size: 50px;
+      text-align: center;
+      position:absolute; top:445px; left: 175px;
     }
     
     input[type=number] {text-align: right;}
