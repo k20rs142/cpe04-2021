@@ -10,6 +10,11 @@
     border-radius: 20px;
   }
 
+/*  #time::after{
+    content: "s"
+  }
+*/
+
     #minuteStr {
         color: #ff0000;
         font-size: 20px;
@@ -58,27 +63,33 @@
         background-color: yellow;
         color: green;
         font-size: 20px;
-        position:absolute; top:380px; left:2%; width:43%; height:60px; 
+        position:absolute; top:380px; left:2%; width:33%; height:60px; 
     }
     
     #btnB {
         font-size: 20px;
-        position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        position:absolute; top:380px; left:35%; width:33%; height:60px; 
     }
 
     #btnC {
-        font-size: 10px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        font-size: 20px;
+        position:absolute; top:450px; left:75%; width:20%; height:60px; 
     }
+
+    #btnD {
+        font-size: 20px;
+        position:absolute; top:380px; left:68%; width:30%; height:60px; 
+    }
+    
     
     #minute {
         font-size: 30px;
-        position:absolute; top:450px; left:60px; width:80px; height:40px;   
+        position:absolute; top:460px; left:50px; width:80px; height:40px;   
     }
     
     #second {
         font-size: 30px;
-        position:absolute; top:450px; left:190px; width:80px; height:40px;   
+        position:absolute; top:460px; left:180px; width:80px; height:40px;   
     }
     
     input[type=number] {text-align: right;}
